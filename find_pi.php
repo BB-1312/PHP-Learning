@@ -1,4 +1,4 @@
 <?php
-//pi() is funcyion that give you PI value 
- echo(pi());
+// Using predefined constant for PI
+echo M_PI;
 ?>
