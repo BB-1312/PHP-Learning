@@ -1,10 +1,8 @@
 <?php
-$count = 5;
-while($count <= 15)
-{
-  echo $count;
-  echo "<br>" ;
-
-  $count++;
+$numbers = [];
+for ($count = 5; $count <= 15; $count++) {
+    $numbers[] = $count;
 }
+
+echo implode(" - ", $numbers);
 ?>
